@@ -1,0 +1,214 @@
+section#contact{
+  background-color: #1fb3bf;
+  padding: 100px 0; 
+}
+h3{
+  text-decoration-line:underline;
+  display:inline-flexbox;
+}
+
+h3:hover{
+  color: aqua;
+}
+section#contact .container{
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 30px 10px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 50px -10px #d6d6d6;
+  box-sizing: border-box;
+}
+section#contact .container .title{
+  text-align: center;
+  color: #2a2a2a;
+  margin-bottom: 50px;
+}
+section#contact .container .title h6{
+  font-size: 1em;
+}
+section#contact .container .title h3{
+  font-size: 2.2em;
+}
+section#contact .container form{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+}
+section#contact .container form input{
+  width: 47%;
+}
+section#contact .container form input:hover,
+section#contact .container form textarea:hover{
+  border-bottom: 2px solid #1fb3bf;
+}
+
+section#contact .container form input,
+section#contact .container form textarea{
+  margin: 10px 0;
+  margin-bottom: 35px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e4e4e4;
+  transition: 0.2s;
+}
+section#contact .container form textarea{
+  width: 100%;
+  resize: none;
+  height: 100px;
+}
+section#contact .container form button{
+  width: 192px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1fb3bf;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  margin: 0 auto;
+}
+/*CSS Footer*/
+footer{
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background: black;
+  color: white;    
+
+}
+.contenu_footer{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+}
+.footer_logo{
+margin-bottom:1.6rem;
+  width: 10px;
+}
+.bloc{
+  width: 25%;
+  margin: 0 30px;
+  padding-top: 0;
+}
+.footer_contact h3
+.footer_services h3
+.footer_horaires h3
+.footer_media h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+.footer_contact li{
+  padding: 2px 0;
+}
+.flex-star-center
+.liste_contact
+.liste_service
+.liste_horaires
+.liste_media {
+  list-style-type: none;
+  display: flex;
+}
+.flex-star-center{
+  text-align:left; 
+  margin-bottom: 1.6rem;
+  list-style-type: none;
+}
+.liste_contact li{
+  list-style-type: none;
+}
+.liste_contact a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.liste_horaires li{
+  list-style-type: none;
+}
+.liste_horaires a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.liste_service li{
+  list-style-type: none;
+  padding: 2px 0;
+}
+.liste_service a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.liste_media li{
+  list-style-type: none;
+}
+.flex-star-center img{
+  width: 50px;
+  margin: 15px 15px;
+}
+.liste_media img {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  display: inline-block;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.5s ease;
+}
+.liste_media a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+.liste_media{
+  display: flex;
+}
+@media screen and (max-width: 1300px) {
+  .contenu_footer{
+        width: 700px;
+        flex-wrap: wrap;
+  }
+  .bloc{
+        width: 40px;
+        margin: 0 0;
+  }
+  .bloc:nth-child(1),
+  .bloc:nth-child(2) {
+        margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contenu_footer{
+        width: 320px;
+  }
+  .bloc {
+        width: 300px;
+        margin: 30px 30px;
+  }
+  .bloc:nth-child(1),
+  .bloc:nth-child(2) {
+        margin-bottom: 30px;
+  }
+  .bloc:nth-child(1){
+        margin-top: 0;
+  }
+  
+}
