@@ -54,8 +54,6 @@
   width:500px;
   height:100vh;
   margin:1%;
-  margin-top: 0%;
-  padding-top: 0%;
 }
 .info{
   display: flex;
@@ -67,6 +65,11 @@
 .defaite a img{
   width: 500px;
   height: 32vh;
+}
+
+.ACTUALITÉS_ASPIKINE img{
+  width: 1000px;
+  height: 80vh;
 }
 
 .clubs{
