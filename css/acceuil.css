@@ -6,10 +6,11 @@
   }
   body{
     font-family: sans-serif;
-    background-color: chartreuse;
+    background-image: url("../image/pikine_T.jpg");
+   
   }
   header{
-      height: 100vh;
+      height: 22vh;
       width: 100vw;
       background-size: cover;
   }
@@ -21,7 +22,7 @@
       justify-content: space-between;
       box-sizing: border-box;
       align-items: center;
-      background-color: white
+      background-color: rgb(209, 16, 16)
   }
   .navbar a{
       color: rgb(52, 12, 230);
@@ -34,7 +35,7 @@
       width: 60px;
       height: 50px;
       display: inline;
-      margin-bottom: -10px;
+      margin-bottom: 0px;
   }
   .navbar .nav-links{
       display: flex;
@@ -46,10 +47,7 @@
   .navbar .nav-links ul li{
       margin: 0 25px;
   }
-  .info{
-    
-  }
-
+  
 .info section img{
   width:500px;
   height:100vh;
@@ -61,6 +59,8 @@
   background-size: cover;
   margin: 0%;
   padding: 0%;
+  padding-top: 0;
+  background-color: chartreuse;
 }
 .defaite a img{
   width: 500px;
@@ -70,6 +70,7 @@
 .ACTUALITÉS_ASPIKINE img{
   width: 1000px;
   height: 80vh;
+ 
 }
 
 .clubs{
@@ -79,6 +80,8 @@
   padding: 5px;
   justify-content:left;
   text-align:left;
+  background-color: chartreuse;
+  background-size: cover;
 }
 .clubs a img{
   border: 1px solid #eee;
