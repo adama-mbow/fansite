@@ -1,12 +1,9 @@
-  {
-      margin: 0;
-      padding:0;
-      text-decoration: none;
-      list-style: none;
-  }
+ 
   body{
+    display: flex;
     font-family: sans-serif;
-    background-image: url("../image/pikine_T.jpg");
+    flex-direction: column;
+    width: 100vw;
    
   }
   header{
@@ -22,10 +19,12 @@
       justify-content: space-between;
       box-sizing: border-box;
       align-items: center;
-      background-color: rgb(209, 16, 16)
+      background-color: whitesmoke    /* rgb(16, 171, 209)*/
   }
   .navbar a{
-      color: rgb(52, 12, 230);
+      color: rgb(230, 48, 12);
+      text-decoration: none;
+      
   }
   .navbar .logo{
       font-size: 2em;
@@ -43,6 +42,7 @@
   }
   .navbar .nav-links ul{
       display: flex;
+      list-style-type: none;
   }
   .navbar .nav-links ul li{
       margin: 0 25px;
@@ -55,17 +55,36 @@
 }
 .info{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-size: cover;
   margin: 0%;
   padding: 0%;
   padding-top: 0;
-  background-color: chartreuse;
+  background-color: white;
+  width: 100vw;
 }
 .defaite a img{
   width: 500px;
   height: 32vh;
 }
+.defaite{
+  border: solid black 2px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.khalil{
+  display: flex;
+  border: solid black 2px;
+}
+.victoir{
+  display: flex;
+  border: solid black 2px;
+}
+
+
+
+
 
 .ACTUALITÉS_ASPIKINE img{
   width: 1000px;
@@ -90,7 +109,7 @@
   width: 100px;
   height: 100px;
   padding: 0.25rem
-  box-sizing: border-box;
+  
 }
 
 
