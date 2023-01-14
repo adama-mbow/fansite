@@ -1,5 +1,47 @@
+header{
+  height: 22vh;
+  width: 100vw;
+  background-size: cover;
+}
+.navbar{
+  position: absolute;
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: whitesmoke    /* rgb(16, 171, 209)*/
+}
+.navbar a{
+  color: rgb(230, 48, 12);
+  text-decoration: none;
+  
+}
+.navbar .logo{
+  font-size: 2em;
+  font-weight: bold;
+}
+.navbar .logo img{
+  width: 60px;
+  height: 50px;
+  display: inline;
+  margin-bottom: 0px;
+}
+.navbar .nav-links{
+  display: flex;
+  
+}
+.navbar .nav-links ul{
+  display: flex;
+  list-style-type: none;
+}
+.navbar .nav-links ul li{
+  margin: 0 25px;
+}
+
 section#contact{
-  background-color: #1fb3bf;
+  background-color: #42bf1f;
   padding: 100px 0; 
 }
 h3{
@@ -8,7 +50,7 @@ h3{
 }
 
 h3:hover{
-  color: aqua;
+  color: rgb(38, 255, 0);
 }
 section#contact .container{
   max-width: 1100px;
@@ -45,7 +87,7 @@ section#contact .container form input{
 }
 section#contact .container form input:hover,
 section#contact .container form textarea:hover{
-  border-bottom: 2px solid #1fb3bf;
+  border-bottom: 2px solid #42bf1f;
 }
 
 section#contact .container form input,
@@ -69,7 +111,7 @@ section#contact .container form button{
   height: 50px;
   border-radius: 8px;
   border: none;
-  background-color: #1fb3bf;
+  background-color: #4cbf1f;
   color: white;
   font-weight: bold;
   font-size: 1.2em;
